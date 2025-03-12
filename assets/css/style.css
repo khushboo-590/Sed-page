@@ -12,7 +12,7 @@
 
 /* < !-- -------------hero-section--------------- --> */
 .hero-bg-img {
-  background-image: url(/assets/images/bgimg.png);
+  background-image: url(/assets/images/Hero-section.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -241,7 +241,9 @@
 }
 
 /* < !-- -------------------section-1----------------------- --> */
-
+.letter-spacing-1{
+    letter-spacing: 0.02em;
+}
 /* < !-- -------------------section-2----------------------- --> */
 
 /* < !-- -------------------section-3----------------------- --> */
