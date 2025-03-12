@@ -127,7 +127,9 @@
   transform-origin: left;
   border-radius: 10px;
 }
-
+.max-w-1240{
+  max-width: 1240px;
+}
 .cursor-pointer {
   cursor: pointer;
 }
@@ -212,10 +214,13 @@
 }
 
 .small-box-1 {
-  background: #FCF1F1;
   color: #01981C;
   border: 0.5px solid #01981C;
   border-radius: 4px;
+ 
+  
+    background: #F3FCF1;
+   
 }
 
 .grey {
