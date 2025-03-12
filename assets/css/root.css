@@ -14,7 +14,6 @@
     --text-md: 28px;
     --text-lg: 48px;
     --text-xl: 60px;
-    --text-2xl: ;
 }
 
 .bg-white {
@@ -76,16 +75,17 @@
 @media(max-width:992px) {
     :root {
         --text-base: 12px;
-        --text-sm-1: 20px;
-        --text-md: 23px;
+        --text-sm-1: 18px;
+        --text-md: 22px;
         --text-lg: 38px;
         --text-xl: 50px;
-        --text-2xl: ;
     }
 }
+
 @media(max-width:768px) {
     :root {
-       
+
         --text-xl: 44px;
+        --text-lg: 30px;
     }
 }
