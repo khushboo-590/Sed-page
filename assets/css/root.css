@@ -2,11 +2,16 @@
     /* -------------font-color--------- */
     --white-color: #FFFFFF;
     --black-color:#010101;
+    --orange-color: #FF6D41;
+    --light-white: #FCFCFC;
+    --red-color: #A40707;
+    --grey-color: #606360;
     /* ---------------font-size---------- */
     --text-sm:16px ;
-        --text-md: ;
+    --text-base:12px;
+        --text-md: 28px;
         --text-lg: ;
-        --text-xl: ;
+        --text-xl:60px ;
         --text-2xl: ;
 }
 .bg-white{
@@ -15,10 +20,32 @@
 .fc-white{
     color: var(--white-color);
 }
+.fc-light-white{
+    color: var(--light-white);
+}
+
 .fc-black{
     color: var(--black-color);
+}
+.fc-red{
+    color: var(--red-color);
+}
+.fc-orange {
+    color: var(--orange-color);
+}
+.fc-grey {
+    color: var(--grey-color);
 }
 
 .fs-16{
     font-size: var(--text-sm);
+}
+.fs-60{
+    font-size: var(--text-xl);
+}
+.fs-12 {
+    font-size: var(--text-base);
+}
+.fs-28 {
+    font-size: var(--text-md);
 }
