@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(/assets/css/root.css);
+
+.font-family {
+  font-family: "Poppins", sans-serif;
+}
+
+/* < !-- -------------hero-section--------------- --> */
+.hero-bg-img {
+  background-image: url(/assets/images/Hero-section.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.max-w-1140{
+  max-width: 1140px;
+}
+.nav-radius{
+  border-radius: 65px;
+}
+.py-16{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-left: 24px;
+}
+.py-15{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+.fw-600{
+  font-weight: 600;
+}
+
+.lh-24 {
+  line-height: 24px;
+}
+
+.oppicity {
+  opacity: 0.7;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-decroation {
+  text-decoration: none;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.btn {
+  padding: 12px 24px;
+  background: linear-gradient(180deg, #2F4FB6 0%, #152350 100%);
+  border-radius: 103px;
+}
+
+.menu-lines {
+  width: 30px;
+  height: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  transition: all 300ms linear;
+  transform-origin: left;
+  border-radius: 10px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.rotate-42 {
+  transform: rotate(42deg);
+}
+
+.z-5 {
+  z-index: 5;
+}
+
+.z-6 {
+  z-index: 6;
+}
+
+.rotate-43 {
+  transform: rotate(-43deg);
+}
+
+@media (max-width:991.98px) {
+
+  .nav-link {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    justify-content: center;
+    bottom: 0;
+    right: -100% !important;
+    top: 0%;
+    transition: all 300ms linear !important;
+    z-index: 5;
+    backdrop-filter: blur(40px);
+    background: #FDFCFC;
+  }
+
+  .show-navbar {
+    right: 0 !important;
+  }
+}
+
+/* < !-- -------------------section-1----------------------- --> */
+
+/* < !-- -------------------section-2----------------------- --> */
+
+/* < !-- -------------------section-3----------------------- --> */
+
+/* < !-- -------------------footer----------------------- --> */

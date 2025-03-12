@@ -1,0 +1,24 @@
+:root{
+    /* -------------font-color--------- */
+    --white-color: #FFFFFF;
+    --black-color:#010101;
+    /* ---------------font-size---------- */
+    --text-sm:16px ;
+        --text-md: ;
+        --text-lg: ;
+        --text-xl: ;
+        --text-2xl: ;
+}
+.bg-white{
+    background: var(--white-color);
+}
+.fc-white{
+    color: var(--white-color);
+}
+.fc-black{
+    color: var(--black-color);
+}
+
+.fs-16{
+    font-size: var(--text-sm);
+}
