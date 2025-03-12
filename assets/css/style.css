@@ -17,7 +17,7 @@
 
 /* < !-- -------------hero-section--------------- --> */
 .hero-bg-img {
-  background-image: url(/assets/images/bgimg.png);
+  background-image: url(/assets/images/Hero-section.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -166,6 +166,7 @@
 
 .girl {
   object-fit: cover;
+  z-index: 1;
 }
 
 .postitio-relative {
@@ -177,7 +178,7 @@
 }
 
 .box {
-  width: 204px;
+  width: 200px;
   height: 140px;
   padding: 24px;
   z-index: 1;
@@ -187,6 +188,7 @@
 
 .box-2 {
   margin-top: 390px;
+  z-index: 2;
 }
 
 .box-1 {
@@ -261,6 +263,10 @@
   left: 0;
 }
 
+.layer {
+  width: 40%;
+}
+
 .bg-blue {
   background-image: url(/assets/images/bg-blue.png);
   background-position: center;
@@ -309,8 +315,9 @@
 
   max-width: 1140px;
   height: 0px;
-  border: 1px solid black;
-  /* linear-gradient(90deg, rgba(1, 1, 1, 0) 0%, #010101 50%, rgba(1, 1, 1, 0) 100%); */
+  /* border: 1px solid black; */
+  border: 1px solid rgba(-0.20, 0, 0, 0.1);
+
 
 
 }
@@ -353,10 +360,8 @@
   display: flex;
 }
 
+
 @media(max-width:1250px) {
-  .box-1 {
-    margin-right: 50px;
-  }
 
   .box-1,
   .box-2 {
@@ -364,14 +369,7 @@
   }
 }
 
-@media(max-width:1070px) {
 
-
-  .box-1,
-  .box-2 {
-    display: none;
-  }
-}
 
 @media (max-width:991.98px) {
 
@@ -435,6 +433,14 @@
     align-items: center;
   }
 
+  .layer {
+    display: none;
+  }
+
+  .max-w-570 {
+    max-width: none;
+  }
+
 }
 
 @media(max-width:768px) {
@@ -454,6 +460,10 @@
     display: none;
   }
 
+  .max-w-424 {
+    max-width: none;
+  }
+
 }
 
 @media(max-width:576px) {
@@ -465,5 +475,9 @@
     margin-top: 50px;
     margin-bottom: 50px;
   }
-}
 
+  .py-90 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
