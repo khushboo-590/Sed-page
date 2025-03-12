@@ -1,58 +1,91 @@
-:root{
+:root {
     /* -------------font-color--------- */
     --white-color: #FFFFFF;
-    --black-color:#010101;
+    --black-color: #010101;
+    --light-black: #020202;
     --orange-color: #FF6D41;
     --light-white: #FCFCFC;
     --red-color: #A40707;
     --grey-color: #606360;
     /* ---------------font-size---------- */
-    --text-sm:16px ;
-    --text-base:12px;
-    --text-sm-1:20px;
-        --text-md: 28px;
-        --text-lg:48px ;
-        --text-xl:60px ;
-        --text-2xl: ;
+    --text-sm: 16px;
+    --text-base: 12px;
+    --text-sm-1: 20px;
+    --text-md: 28px;
+    --text-lg: 48px;
+    --text-xl: 60px;
+    --text-2xl: ;
 }
-.bg-white{
+
+.bg-white {
     background: var(--white-color);
 }
-.fc-white{
+
+.fc-white {
     color: var(--white-color);
 }
-.fc-light-white{
+
+.fc-light-white {
     color: var(--light-white);
 }
 
-.fc-black{
+.fc-black {
     color: var(--black-color);
 }
-.fc-red{
+
+.fc-light-black {
+    color: var(--light-black);
+}
+
+.fc-red {
     color: var(--red-color);
 }
+
 .fc-orange {
     color: var(--orange-color);
 }
+
 .fc-grey {
     color: var(--grey-color);
 }
 
-.fs-16{
+.fs-16 {
     font-size: var(--text-sm);
 }
-.fs-60{
+
+.fs-60 {
     font-size: var(--text-xl);
 }
+
 .fs-12 {
     font-size: var(--text-base);
 }
+
 .fs-28 {
     font-size: var(--text-md);
 }
+
 .fs-48 {
     font-size: var(--text-lg);
 }
+
 .fs-20 {
     font-size: var(--text-sm-1);
+}
+
+@media(max-width:992px) {
+    :root {
+        --text-base: 12px;
+        --text-sm-1: 20px;
+        --text-md: 23px;
+        --text-lg: 38px;
+        --text-xl: 50px;
+        --text-2xl: ;
+    }
+}
+@media(max-width:768px) {
+    :root {
+       
+        --text-xl: 44px;
+    }
 }
