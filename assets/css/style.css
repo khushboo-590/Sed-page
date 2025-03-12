@@ -236,7 +236,10 @@
   letter-spacing: 0.02em;
 }
 
-
+.py-70{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
 
 /* < !-- -------------------section-2----------------------- --> */
 
@@ -481,8 +484,8 @@
     margin-bottom: 50px;
   }
 
-  .py-90 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  .py-70 {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
