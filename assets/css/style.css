@@ -241,11 +241,51 @@
 }
 
 /* < !-- -------------------section-1----------------------- --> */
-.letter-spacing-1{
-    letter-spacing: 0.02em;
+.letter-spacing-1 {
+  letter-spacing: 0.02em;
 }
+
 /* < !-- -------------------section-2----------------------- --> */
 
 /* < !-- -------------------section-3----------------------- --> */
+.bg-blue {
+  background: linear-gradient(180deg, #2F4FB6 0%, #152350 100%);
+  border-radius: 12px;
+}
+
+.ways-1 {
+  top: 0;
+  right: 0;
+}
+
+.ways-2 {
+  bottom: -50px;
+  left: 0;
+}
+
+.bg-blue {
+  background-image: url(/assets/images/bg-blue.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.py-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.max-w-601 {
+  max-width: 601px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.gap-16 {
+  gap: 16px;
+}
 
 /* < !-- -------------------footer----------------------- --> */

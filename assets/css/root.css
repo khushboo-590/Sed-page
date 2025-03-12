@@ -9,8 +9,9 @@
     /* ---------------font-size---------- */
     --text-sm:16px ;
     --text-base:12px;
+    --text-sm-1:20px;
         --text-md: 28px;
-        --text-lg: ;
+        --text-lg:48px ;
         --text-xl:60px ;
         --text-2xl: ;
 }
@@ -48,4 +49,10 @@
 }
 .fs-28 {
     font-size: var(--text-md);
+}
+.fs-48 {
+    font-size: var(--text-lg);
+}
+.fs-20 {
+    font-size: var(--text-sm-1);
 }
