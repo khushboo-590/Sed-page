@@ -18,7 +18,7 @@
 /* < !-- -------------hero-section--------------- --> */
 .hero-bg-img {
   background-image: url(/assets/images/Hero-section.png);
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -26,6 +26,24 @@
 
 .max-w-1140 {
   max-width: 1140px;
+}
+
+.min-h-818 {
+  min-height: 818px !important;
+}
+
+.max-w-426 {
+  max-width: 426px;
+}
+
+.h-1000 {
+  height: 1000px;
+}
+
+
+
+.pt-102 {
+  padding-top: 102px;
 }
 
 .nav-radius {
@@ -112,6 +130,13 @@
   padding: 12px 24px;
   background: linear-gradient(180deg, #2F4FB6 0%, #152350 100%);
   border-radius: 103px;
+  z-index: 1;
+}
+
+.btn:hover {
+  background: #FDFCFC;
+  color: #2F4FB6;
+  border: 1px solid#2F4FB6;
 }
 
 .mt-100 {
@@ -127,9 +152,11 @@
   transform-origin: left;
   border-radius: 10px;
 }
-.max-w-1240{
+
+.max-w-1240 {
   max-width: 1240px;
 }
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -144,6 +171,26 @@
 
 .z-6 {
   z-index: 6;
+}
+
+.mb-120 {
+  margin-bottom: 120px;
+}
+
+.min-vh-818 {
+  min-height: 818vh;
+}
+
+.h-1000 {
+  height: 1000px;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.top-0 {
+  top: 0;
 }
 
 .rotate-43 {
@@ -194,8 +241,7 @@
 }
 
 .box-1 {
-  margin-top: 70px;
-  margin-right: 30px;
+  top: 50px;
 }
 
 .max-w-1212 {
@@ -217,10 +263,10 @@
   color: #01981C;
   border: 0.5px solid #01981C;
   border-radius: 4px;
- 
-  
-    background: #F3FCF1;
-   
+
+
+  background: #F3FCF1;
+
 }
 
 .grey {
@@ -236,7 +282,7 @@
   letter-spacing: 0.02em;
 }
 
-.py-70{
+.py-70 {
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -308,9 +354,15 @@
   padding-top: 90px;
   padding-bottom: 90px;
 }
-.z-1{
+
+.z-1 {
   z-index: 1;
 }
+
+.bg {
+  height: 900px;
+}
+
 /* < !-- -------------------footer----------------------- --> */
 
 .max-w-424 {
@@ -364,9 +416,16 @@
 
 }
 
+.right-2 {
+  right: 2px;
+}
 
 .display {
   display: flex;
+}
+
+.top-86 {
+  top: 86px;
 }
 
 .line::before {
@@ -377,6 +436,7 @@
   background: linear-gradient(90deg, rgba(1, 1, 1, 0) 0%, #010101 50%, rgba(1, 1, 1, 0) 100%);
   mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
 }
+
 @media(max-width:1250px) {
 
   .box-1,
