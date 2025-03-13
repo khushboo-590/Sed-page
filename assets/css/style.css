@@ -448,7 +448,14 @@
       filter: invert(1);
 }
 
-
+.links:hover ::before {
+  content: '';
+  background: linear-gradient(90deg, #294b7800 0%, #294B78 50%, rgba(41, 75, 120, 0) 100%);
+  position: absolute;
+  bottom: 0px;
+  width: 0;
+  height: 2px;
+  transition: all 0.3s ease-in-out;}
 @media (max-width:991.98px) {
 
   .nav-link {
