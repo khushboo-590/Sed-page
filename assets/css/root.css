@@ -24,6 +24,9 @@
 .bg-light-grey {
     background: var(--light-grey);
 }
+.fc-light-grey{
+    color: var(--light-grey);
+}
 
 .fc-white {
     color: var(--white-color);

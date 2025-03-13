@@ -143,6 +143,11 @@
   margin-top: 100px;
 }
 
+.my-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .menu-lines {
   width: 30px;
   height: 5px;
@@ -242,6 +247,7 @@
 
 .box-1 {
   top: 50px;
+  z-index: 2;
 }
 
 .max-w-1212 {
@@ -437,13 +443,7 @@
   mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
 }
 
-@media(max-width:1250px) {
 
-  .box-1,
-  .box-2 {
-    display: none;
-  }
-}
 
 
 
@@ -555,5 +555,9 @@
   .py-70 {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .box-1{
+    left: 0;
+    top: 200px;
   }
 }
