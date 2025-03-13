@@ -271,9 +271,9 @@
   left: 0;
 }
 
-.layer {
+/* .layer {
   width: 40%;
-}
+} */
 
 .bg-blue {
   background-image: url(/assets/images/bg-blue.png);
@@ -308,7 +308,9 @@
   padding-top: 90px;
   padding-bottom: 90px;
 }
-
+.z-1{
+  z-index: 1;
+}
 /* < !-- -------------------footer----------------------- --> */
 
 .max-w-424 {
