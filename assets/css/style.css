@@ -53,8 +53,7 @@
 .py-16 {
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-left: 24px;
-  padding-left: 24px;
+  
 }
 
 .py-15 {
@@ -130,6 +129,7 @@
   padding: 12px 24px;
   background: linear-gradient(180deg, #2F4FB6 0%, #152350 100%);
   border-radius: 103px;
+  border: none;
   z-index: 1;
 }
 
@@ -448,7 +448,7 @@
       filter: invert(1);
 }
 
-.links:hover ::before {
+.links::before {
   content: '';
   background: linear-gradient(90deg, #294b7800 0%, #294B78 50%, rgba(41, 75, 120, 0) 100%);
   position: absolute;
@@ -570,3 +570,4 @@
     top: 200px;
   }
 }
+
