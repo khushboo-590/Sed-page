@@ -444,7 +444,9 @@
 }
 
 
-
+.logo-name{
+      filter: invert(1);
+}
 
 
 @media (max-width:991.98px) {
